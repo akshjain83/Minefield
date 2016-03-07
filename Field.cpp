@@ -58,9 +58,9 @@ bool Field::isSafe(int x, int y)
    else
    {
       if(_map[x][y] == MINE_HIDDEN)
-         return true;
-      else
          return false;
+      else
+         return true;
    }
 }
 
